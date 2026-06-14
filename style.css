@@ -1,0 +1,122 @@
+ 
+/* registration */
+.form{
+    text-align: center;
+} 
+.head{
+    text-align: center;
+    }
+.button1{
+    text-align: center;
+    margin-top: 30px;
+   
+    }
+/* login */
+.user{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
+.button{
+    text-align: center;
+    margin-top: 20px;
+}
+.h1{
+    text-align: center;
+}
+/* ecommerce */
+/* .category{
+
+} */
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 100px;
+}
+div.gallery-item{
+    margin: 20px;
+    
+    width: 400;
+
+}
+.dropdown{
+    position:relative;
+}
+.dropbtn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    margin-left: 600px;
+    
+
+}
+
+/* Links inside dropdown content */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change background color of dropdown button on hover */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.details1{
+    position: relative;
+    margin-top: 400px;
+    margin-left: 100px;
+    height: 220;
+    width: 200px;
+    overflow: hidden;
+}
+.details1 img{
+     width: 100%;
+    display: block;
+}
+
+.details1{
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.details1:hover {
+    opacity: 1;
+
+}
